@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package
+  xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10"
+  xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest"
+  xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10"
+  IgnorableNamespaces="uap mp">
+
+  <Identity Name="4aa609e3-13d2-4d22-9508-f16e1efc657e"
+            Publisher="CN=GeoffH"
+            Version="1.0.0.0" />
+
+  <mp:PhoneIdentity PhoneProductId="4aa609e3-13d2-4d22-9508-f16e1efc657e" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+
+  <Properties>
+    <DisplayName>UwpFcuXUnit.Tests.POS</DisplayName>
+    <PublisherDisplayName>GeoffH</PublisherDisplayName>
+    <Logo>Images\StoreLogo.png</Logo>
+  </Properties>
+
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.0.0" MaxVersionTested="10.0.0.0" />
+  </Dependencies>
+
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="vstest.executionengine.universal.App"
+        Executable="$targetnametoken$.exe"
+        EntryPoint="UwpFcuXUnit.Tests.POS.App">
+      <uap:VisualElements
+        DisplayName="UwpFcuXUnit.Tests.POS"
+        Square150x150Logo="Images\Square150x150Logo.png"
+        Square44x44Logo="Images\Square44x44Logo.png"
+        Description="UwpFcuXUnit.Tests.POS"
+        BackgroundColor="transparent">
+        <uap:DefaultTile Wide310x150Logo="Images\Wide310x150Logo.png"/>
+        <uap:SplashScreen Image="Images\SplashScreen.png" />
+      </uap:VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClientServer" />
+  </Capabilities>
+</Package>

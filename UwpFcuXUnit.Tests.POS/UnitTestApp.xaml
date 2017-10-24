@@ -1,0 +1,8 @@
+﻿<Application
+    x:Class="UwpFcuXUnit.Tests.POS.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:UwpFcuXUnit.Tests.POS"
+    RequestedTheme="Light">
+
+</Application>
